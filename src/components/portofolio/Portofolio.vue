@@ -1,12 +1,25 @@
 <template>
   <div id="m_portofolio" >
-      Portofolio work!!
+    <div class="m_title">
+      Portofolio
+    </div>
+    <div class="m_container">
+      <Work />
+      <Work />
+      <Work />
+      <Work />
+      <Work />
+    </div>
   </div>
 </template>
 
 <script>
+import Work from "./components/Work"
 export default {
-  name: 'Portofolio'
+  name: 'Portofolio',
+  components: {
+    Work
+  }
 }
 </script>
 
