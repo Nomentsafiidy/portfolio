@@ -1,6 +1,55 @@
 <template>
   <div id="m_contact">
-      Contact work!!
+      <div class="m_title">Contact</div>
+      <div class="m_contact_container">
+        <div class="m_contact_info" >
+          <div class="m_contact_title">
+            Contact Info
+          </div>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but the et majori have suffered alteration in some form, by injected humour, Domised words which don't look even slightly believable. If you are going to use a pas of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text
+          </p>
+          <div class="m_contact_item" >
+            <div class="m_avatar_icon" >
+                <img src="./../../assets/svg/email.svg" width="40" height="40" alt="linkedin">
+            </div>
+            <div class="m_content">
+              <div class="m_content_title" >Email</div>
+              <div class="m_content_descrition" >mnomentsafidyca@gmail.com</div>
+            </div>
+          </div>
+          <div class="m_contact_item" >
+            <div class="m_avatar_icon" >
+                <img src="./../../assets/svg/call.svg" width="40" height="40" alt="linkedin">
+            </div>
+            <div class="m_content">
+              <div class="m_content_title" >Phone</div>
+              <div class="m_content_descrition" >+261 34 94 156 67</div>
+            </div>
+          </div>
+          <div class="m_contact_item" >
+            <div class="m_avatar_icon" >
+                <img src="./../../assets/svg/skype.svg" width="40" height="40" alt="linkedin">
+            </div>
+            <div class="m_content">
+              <div class="m_content_title" >Skype</div>
+              <div class="m_content_descrition" >Nomentsafidy.ANDRIAMIARANTSOA</div>
+            </div>
+          </div>
+        </div>
+        <div class="m_contact_form" >
+          <div class="m_contact_title">
+            Send Message
+          </div>
+          <form class="m_form_content" action="#" >
+            <input class="m_input" type="text" placeholder="Your Name*" />
+            <input class="m_input" type="text" placeholder="Your Email*" />
+            <input class="m_input" type="text" placeholder="Subject"/>
+            <textarea class="m_textarea" rows="4" placeholder="Write Message" ></textarea>
+            <input class="m_btn_warning" type="Submit" value="Send Message" />
+          </form>
+          </div>
+      </div>
   </div>
 </template>
 
