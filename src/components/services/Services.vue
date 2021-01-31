@@ -1,12 +1,28 @@
 <template>
   <div id="m_services" >
-      Services work!!
+    <div class="m_title">
+      Services
+    </div>
+    <div class="m_services_container">
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+      <ServiceItem class="m_item" />
+    </div>
   </div>
 </template>
 
 <script>
+import ServiceItem from "./components/ServiceItem"
 export default {
-  name: 'Services'
+  name: 'Services',
+  components:{
+    ServiceItem
+  }
 }
 </script>
 
