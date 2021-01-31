@@ -1,5 +1,41 @@
-#m_education{
-    height: 100%;
-    width: 100%;
-    background-color: cyan;
+#m_education {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+.m_education_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.m_education_item {
+  background: #f2f2f2;
+  width: 340px;
+  padding: 20px;
+  margin: 20px;
+  border-top: 5px solid #f7da7b;
+  font-size: 14px;
+  font-family: "Raleway-Bold";
+  .m_period {
+    color: var(--warning-color);
+  }
+  .m_cursus {
+    font-family: "Raleway-SemiBold";
+    color: #333333;
+    font-size: 20px;
+    margin: 5px 0px;
+  }
+  .m_school {
+    font-family: "Raleway-SemiBold";
+    color: #666666;
+    font-size: 13px;
+    margin: 5px 0px;
+  }
+  p {
+    margin: 10px 0px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Raleway-Medium";
+  }
 }
