@@ -1,0 +1,39 @@
+#m_header{
+    font-family: "Raleway-SemiBold";
+    font-size: 13px;
+    background: var(--warning-color);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .m_logo{
+      font-family: "Raleway-Bold";
+      font-size: 36px;
+      flex-grow: 1;
+      text-align: center;
+      a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 1s;
+        &:hover{
+          color: white;
+        }
+      }
+    }
+    .m_navigation {
+      margin-left: auto;
+      display: flex;
+      justify-content: space-evenly;
+      flex-grow: 1;
+      a {
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 1s;
+        &:hover{
+          color: white;
+        }
+      }
+    }
+}

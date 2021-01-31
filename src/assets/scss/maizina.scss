@@ -1,0 +1,15 @@
+@import url("./font.scss");
+@import url("./reset.scss");
+
+:root {
+    --dark-primary   : #027BE3;
+    --dark-secondary : #26A69A;
+    --dark-accent    : #9C27B0;
+    --dark-color     : #1d1d1d;
+
+    --positive-color  : #21BA45;
+    --negative-color  : #C10015;
+    --info-color     : #31CCEC;
+    --warning-color   : #fec608;
+}
+
