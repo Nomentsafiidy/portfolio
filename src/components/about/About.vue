@@ -24,6 +24,15 @@
           passionate about IT (Information Technology). enjoying challenges and
           acquiring new knowledge.
         </p>
+        <p>
+          Mon expérience acquise au fil des projets me permet de mieux
+          comprendre les attentes d'un client et de répondre précisement au
+          besoin demandé en fonction du domaine d'activité.
+        </p>
+        <p>
+          Du site vitrine au projet plus complexe, je vous propose une expertise
+          et un développement qui correspond à vos attentes & à vos besoins.
+        </p>
         <div class="m_about_social">
           <a
             href="https://www.linkedin.com/in/nomentsafidy-andriamiarantsoa-8086061a1/"
