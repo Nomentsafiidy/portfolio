@@ -1,5 +1,5 @@
 <template>
-  <div id="m_portofolio" >
+  <div id="m_portofolio">
     <div class="m_title">
       Portofolio
     </div>
@@ -14,14 +14,14 @@
 </template>
 
 <script>
-import Work from "./components/Work"
+import Work from "./components/Work";
 export default {
-  name: 'Portofolio',
+  name: "Portofolio",
   components: {
-    Work
-  }
-}
+    Work,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" src="./portofolio.scss" ></style>
+<style lang="scss" src="./portofolio.scss"></style>
