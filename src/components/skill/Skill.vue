@@ -1,13 +1,13 @@
 <template>
   <div id="m_skill">
     <div class="m_title">
-      MY SKILL
+      Compétence
     </div>
     <div class="m_skill_content">
       <div class="m_skill_container">
         <div class="m_skill_title">Back End</div>
         <p>
-          Various server-side programming languages and frameworks
+          Divers langages et frameworks de programmation côté serveur
         </p>
         <div class="m_skill_items">
           <SkillItem :progress="80 * 1" title="Node Js" />
@@ -19,7 +19,7 @@
       <div class="m_skill_container">
         <div class="m_skill_title">Front End</div>
         <p>
-          Various client-side programming languages and frameworks
+          Divers langages et frameworks de programmation côté client
         </p>
         <div class="m_skill_items">
           <SkillItem :progress="75 * 1" title="Vue Js" />
@@ -31,7 +31,7 @@
       <div class="m_skill_container">
         <div class="m_skill_title">Web Design</div>
         <p>
-          Software for creating models, retouching and creating images
+          Logiciel de création de modèles, de retouche et de création d'images
         </p>
         <div class="m_skill_items">
           <SkillItem :progress="85 * 1" title="Creative Design" />

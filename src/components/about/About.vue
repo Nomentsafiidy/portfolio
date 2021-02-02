@@ -14,15 +14,16 @@
     <transition name="translateX" appear="translateX">
       <div class="m_about_right">
         <div class="m_about_title">
-          HI I'M <span class="name">ANDRIAMIARANTSOA Nomentsafidy</span>
+          Bonjour, je suis
+          <span class="name">ANDRIAMIARANTSOA Nomentsafidy</span>
         </div>
         <div class="m_about_subtitle">
-          Fullstack javascript developer and Web Designer
+          Développeur javascript fullstack et Génie logiciel
         </div>
         <p>
-          My name is ANDRIAMIARANTSOA Nomentsafidy. I am 24 years old. I am
-          passionate about IT (Information Technology). enjoying challenges and
-          acquiring new knowledge.
+          Je m'appelle ANDRIAMIARANTSOA Nomentsafidy. J'ai 24 ans. Je suis
+          passionné par l'informatique (technologies de l'information). Aimant
+          relever des défis et acquérir de nouvelles connaissances.
         </p>
         <p>
           Mon expérience acquise au fil des projets me permet de mieux
@@ -67,9 +68,13 @@
               alt="facebook"
           /></a>
         </div>
-        <button class="btn btn_danger mt_10" type="button">
-          Download My Resume
-        </button>
+        <a
+          class="btn btn_danger mt_10"
+          href="./../../cv.pdf"
+          download="cv_nomentsafidy.pdf"
+        >
+          Télécharger mon cv
+        </a>
       </div>
     </transition>
   </div>

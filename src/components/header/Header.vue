@@ -6,8 +6,8 @@
       </a>
     </div>
     <nav class="m_navigation">
-      <a href="#aboutMe" @click.prevent="scrollTo('m_about')">About Me</a>
-      <a href="#skil" @click.prevent="scrollTo('m_skill')">Skill</a>
+      <a href="#aboutMe" @click.prevent="scrollTo('m_about')">Apropos</a>
+      <a href="#skil" @click.prevent="scrollTo('m_skill')">Compétence</a>
       <a href="#services" @click.prevent="scrollTo('m_services')">Services</a>
       <a href="#portofolio" @click.prevent="scrollTo('m_portofolio')"
         >Portofolio</a
