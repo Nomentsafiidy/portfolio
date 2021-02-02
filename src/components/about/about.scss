@@ -27,6 +27,7 @@
 @media only screen and (max-width: 500px) {
   #m_about {
     padding: 25px;
+    overflow-x: hidden;
   }
   .m_about_left {
     width: 100%;
@@ -77,6 +78,7 @@
 @media only screen and (min-width: 500px) and (max-width: 959px) {
   #m_about {
     padding: 40px;
+    overflow-x: hidden;
   }
   .m_about_left {
     width: 100%;
