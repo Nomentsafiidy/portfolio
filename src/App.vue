@@ -1,12 +1,11 @@
 <template>
   <div id="app">
-    <!-- header section -->
     <Header />
     <About />
     <Skill />
     <Services />
     <Portofolio />
-    <Education  />
+    <Education />
     <Contact />
   </div>
 </template>
@@ -14,13 +13,13 @@
 <script>
 import Header from "./components/header/Header";
 import About from "./components/about/About";
-import Skill from "./components/skill/Skill"
-import Education from "./components/education/Education"
-import Services from "./components/services/Services"
-import Portofolio from "./components/portofolio/Portofolio"
-import Contact from "./components/contact/Contact"
+import Skill from "./components/skill/Skill";
+import Education from "./components/education/Education";
+import Services from "./components/services/Services";
+import Portofolio from "./components/portofolio/Portofolio";
+import Contact from "./components/contact/Contact";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     About,
@@ -28,15 +27,14 @@ export default {
     Education,
     Services,
     Portofolio,
-    Contact
-  }
-}
+    Contact,
+  },
+};
 </script>
 
-<style lang="scss" >
-  @import url("./assets/scss/maizina.scss");
-  #app{
-    height: 100%;
-    background: blue;
-  }
+<style lang="scss">
+@import url("./assets/scss/maizina.scss");
+#app {
+  height: 100%;
+}
 </style>
