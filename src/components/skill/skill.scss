@@ -1,25 +1,19 @@
-#m_skill {
-  height: 100%;
-  width: 100%;
-  padding: 30px;
-}
 .m_title {
   text-align: center;
   font-family: "Raleway-Bold";
   color: var(--warning-color);
   text-transform: uppercase;
   font-size: 36px;
-  padding: 10px 0px;
-  margin-bottom: 20px;
+  padding: 20px 0px 0px 0px;
 }
 .m_skill_content {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   .m_skill_container {
-    flex: 30%;
-    margin: 0px 20px;
-    width: 100%;
-    height: 100%;
+    width: 312px;
+    margin: 20px;
     font-family: "Raleway-Bold";
     .m_skill_title {
       font-size: 24px;
