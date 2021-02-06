@@ -1,7 +1,7 @@
 <template>
   <section class="m_service_item">
     <img class="m_service_img" src="./../../../assets/logo.png" alt="Vue Js" />
-    <h6 class="m_service_item_title">{{ title }}</h6>
+    <h2 class="m_service_item_title">{{ title }}</h2>
     <p>
       {{ description }}
     </p>

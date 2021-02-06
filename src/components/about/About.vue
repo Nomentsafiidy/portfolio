@@ -15,11 +15,11 @@
       <div class="m_about_right">
         <div class="m_about_title">
           Bonjour, je suis
-          <span class="name">ANDRIAMIARANTSOA Nomentsafidy</span>
+          <h1 class="name">ANDRIAMIARANTSOA Nomentsafidy</h1>
         </div>
-        <div class="m_about_subtitle">
+        <h2 class="m_about_subtitle">
           Développeur javascript fullstack et Génie logiciel
-        </div>
+        </h2>
         <p>
           Je m'appelle ANDRIAMIARANTSOA Nomentsafidy. J'ai 24 ans. Je suis
           passionné par l'informatique (technologies de l'information). Aimant
