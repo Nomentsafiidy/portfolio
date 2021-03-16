@@ -131,7 +131,6 @@
 @media only screen and (min-width: 960px) {
   #m_about {
     overflow-x: hidden;
-    height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -141,16 +140,15 @@
     flex: 50%;
     flex-grow: 1;
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     .m_img_container {
-      height: 100%;
-      width: auto;
+      text-align: center;
     }
     img {
-      height: 100%;
-      width: auto;
+      width: 80%;
+      object-fit: cover;
+      object-position: top center;
     }
   }
   .m_about_right {
@@ -193,31 +191,3 @@
     }
   }
 }
-
-/*.btn {
-  cursor: pointer;
-  border: none;
-  margin: 15px auto 15px 0;
-  padding: 0;
-  font-family: "Montserrat-Bold";
-  font-size: 22px;
-  line-height: 29px;
-  height: 51px;
-  background: #fff;
-  border: solid 1px #d43d40;
-  border-radius: 51px;
-  padding: 0px 25px;
-}
-
-.btn_danger {
-  color: white;
-  background: #d43d40;
-  transition: color 1s, background-color 0.5s;
-  &:focus {
-    outline: none;
-  }
-  &:hover {
-    background: darken(#d43d40, 10);
-    color: darken(#ffff, 8);
-  }
-} */
