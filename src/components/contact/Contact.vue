@@ -7,11 +7,7 @@
           Contact Info
         </div>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the et majori have suffered alteration in some form, by injected
-          humour, Domised words which don't look even slightly believable. If
-          you are going to use a pas of Lorem Ipsum, you need to be sure there
-          isn't anything embarrassing hidden in the middle of text
+          Une idée? Un projet ? N'hésite pas à me contacter
         </p>
         <div class="m_contact_item">
           <div class="m_avatar_icon">

@@ -1,6 +1,8 @@
 <template>
   <section class="m_service_item">
-    <img class="m_service_img" src="./../../../assets/logo.png" alt="Vue Js" />
+    <span class="material-icons m_service_img">
+      {{ iconName }}
+    </span>
     <h2 class="m_service_item_title">{{ title }}</h2>
     <p>
       {{ description }}
@@ -18,7 +20,7 @@ export default {
     description: {
       type: String,
     },
-    imgUrl: {
+    iconName: {
       type: String,
     },
   },
@@ -35,8 +37,7 @@ export default {
   font-family: "Raleway-Bold";
   color: #333333;
   .m_service_img {
-    height: 100px;
-    width: auto;
+    font-size: 100px;
   }
   .m_service_item_title {
     margin: 15px 0px;

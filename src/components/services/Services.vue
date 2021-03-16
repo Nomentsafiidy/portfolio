@@ -10,7 +10,7 @@
         :key="index"
         :description="service.description"
         :title="service.title"
-        :imgUrl="service.imgUrl"
+        :iconName="service.iconName"
       />
     </div>
   </div>
@@ -30,25 +30,25 @@ export default {
           title: "Développements spécifiques",
           description:
             "Des outils adaptés à votre coeur de métier, applications & solutions personnalisées",
-          imgUrl: "src/fdgf/assets/logo.png",
+          iconName: "important_devices",
         },
         {
           title: "Intergration web",
           description:
             "Des intergrations (x)HTML / css respectueuses des standards du web",
-          imgUrl: "src/fdgf/assets/logo.png",
+          iconName: "devices_other",
         },
         {
           title: "Conception grafique & webdesign",
           description:
             "Logos, templates web, plaquettes publicitaires, cartes de visite, newsletters...",
-          imgUrl: "src/fdgf/assets/logo.png",
+          iconName: "design_services",
         },
         {
           title: "Dynamisme des pages",
           description:
             "Des animations de contenu non intrusives pour embellir votre projet",
-          imgUrl: "src/fdgf/assets/logo.png",
+          iconName: "animation",
         },
       ],
     };
