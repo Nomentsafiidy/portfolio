@@ -70,7 +70,7 @@
         </div>
         <a
           class="btn btn_danger mt_10"
-          href="./../../cv.pdf"
+          href="./cv.pdf"
           download="cv_nomentsafidy.pdf"
         >
           Télécharger mon cv
